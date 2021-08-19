@@ -8,7 +8,8 @@ import {
   Route
 } from "react-router-dom";
 import { CartProvider } from "./Cartcontext";
-import Cart from "./Cart";
+import Cart from "./CartItem";
+import Footer from "./Footer";
 
 
 
@@ -22,7 +23,8 @@ function App() {
          <CartProvider>
           <Navbar key="1"/>
           <Route key="2" path="/" component={Header} exact={true}/>
-          <Route key="3" path="/cart" component={Cart} exact={true}/>
+          <Route key="3" path="/" component={Footer} exact={true}/>
+          <Route key="4" path="/cart" component={Cart} exact={true}/>
          </CartProvider>
       </Switch>
     </Router>

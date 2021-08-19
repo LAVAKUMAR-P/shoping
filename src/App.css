@@ -2,7 +2,30 @@
   margin: 10px;
 }
 
-.cart{
-  width: 300px;
-  background-color: gray;
+.cart-card{
+  background-color:#F8F9FA;
+  border: 1px solid black;
+  border-radius: 20px;
+  width: 60%;
 }
+.cart-List{
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.5em;
+  place-items: center;
+  margin: 1em;
+}
+.footer {
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  color:#fff;
+  background-color:black;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+
+
