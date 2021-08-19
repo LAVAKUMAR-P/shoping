@@ -15,7 +15,7 @@ function Card(props) {
     
     <div className="col mb-5">
       <div className="card h-100 rounded">
-        <img src="http://placehold.it/200x100" alt="..." />
+        <img src="https://dummyimage.com/450x300/" alt="..." />
         <div className="card-body p-4">
           <div className="text-center">
             <h5 className="fw-bolder">{props.data.name}</h5>
